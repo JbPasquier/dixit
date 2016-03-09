@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+    #mobile-alert {
+        display: none;
+    }
+}
+@media (min-width: 900px) {
+    #desktop-alert {
+        display: none;
+    }
+}
+#players {
+    font-size: 14pt;
+}
