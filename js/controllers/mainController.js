@@ -16,7 +16,7 @@ function mainController($scope, $sce) {
             $scope.setDixit();
             $scope.loadDice($scope.players);
         }
-    }
+    };
     $scope.roll = function() {
         return Math.floor(Math.random() * 6 + 1);
     };
